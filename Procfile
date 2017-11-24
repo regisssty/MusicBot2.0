@@ -1,1 +1,1 @@
-web: rake jobs:work
+worker: python3.5 run.py
