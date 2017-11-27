@@ -33,9 +33,12 @@ class Config:
         self._confpreface = "An error has occured reading the config:\n"
         self._confpreface2 = "An error has occured validating the config:\n"
 
-        self._email = config.get('Credentials', 'Email', fallback=ConfigDefaults.email)
-        self._password = config.get('Credentials', 'Password', fallback=ConfigDefaults.password)
-        self._login_token = config.get('Credentials', 'Token', fallback=ConfigDefaults.token)
+        #self._email = config.get('Credentials', 'Email', fallback=ConfigDefaults.email)
+        #self._password = config.get('Credentials', 'Password', fallback=ConfigDefaults.password)
+        #self._login_token = config.get('Credentials', 'Token', fallback=ConfigDefaults.token)
+        self._email = ""
+        self._password = ""
+        #self._login_token = ""
 
         self.auth = ()
 
